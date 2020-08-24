@@ -1,0 +1,62 @@
+%position-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-logo {
+    @extend %position-center;
+    position: sticky;
+    height: 200px;
+    width: 200px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+
+    margin: 0;
+    font-size: 46px;
+    color: white;
+    margin: auto;
+    z-index: 1;
+
+    b {
+        padding-bottom: 15px;
+    }
+}
+
+.login-form {
+    @extend %position-center;
+    position: sticky;
+    height: 300px;
+    width: 400px;
+    background-color: #fcfcfc;
+    margin-top: -100px;
+
+    form {
+        margin-top: 90px;
+    }
+}
+
+%format-button {
+    @extend %position-center;
+    display: inline-flex;
+    padding: 14px 20px;
+    margin: 8px 0;
+    width: 80%;
+    margin-left: 10%
+}
+
+.button-login {
+    @extend %format-button;
+    height: 35px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.field-login,
+.field-password {
+    @extend %format-button;
+    border-width: thin;
+    box-sizing: border-box;
+}

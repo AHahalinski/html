@@ -1,0 +1,25 @@
+footer {
+    height: 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.footer-left {
+    margin-left: 2%;
+    display: flex;
+    line-height: 1em;
+    font-size: 12px;
+}
+
+.footer-right {
+    width: 11%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 2%;
+}

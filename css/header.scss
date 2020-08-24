@@ -1,0 +1,104 @@
+$base-font: 'Segoe UI',
+Tahoma,
+Geneva,
+Verdana,
+sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    min-width: 800px;
+    max-width: 1500px;
+    height: 100%;
+    margin: auto;
+}
+
+body {
+    background-size: 100%;
+    font-family: $base-font;
+    font-size: 16px;
+    color: black;
+    line-height: 18px;
+}
+
+input,
+select,
+label,
+button {
+    font-family: $base-font;
+}
+
+input,
+select {
+    height: 35px;
+    border-width: thin;
+    padding: 0 10px;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    background-color: #b8f3d1;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar-left {
+    margin-left: 2%;
+    display: flex;
+    line-height: 1em;
+    font-size: 24px;
+}
+
+.logo {
+    font-size: 20px;
+    margin-left: 3px;
+}
+
+.search-block {
+    width: 50%;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.field-search {
+    width: 100%;
+    border-right-style: none;
+}
+
+.bar-right {
+    width: 11%;
+    min-width: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+    margin-right: 2%;
+
+    .basket {
+        margin-right: 2%;
+    }
+
+    .login {
+        display: inline;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,70 @@
+.circle-logo, .login-form, .button-login, .field-login,
+.field-password {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.circle-logo {
+  position: -webkit-sticky;
+  position: sticky;
+  height: 200px;
+  width: 200px;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+  margin: 0;
+  font-size: 46px;
+  color: white;
+  margin: auto;
+  z-index: 1;
+}
+
+.circle-logo b {
+  padding-bottom: 15px;
+}
+
+.login-form {
+  position: -webkit-sticky;
+  position: sticky;
+  height: 300px;
+  width: 400px;
+  background-color: #fcfcfc;
+  margin-top: -100px;
+}
+
+.login-form form {
+  margin-top: 90px;
+}
+
+.button-login, .field-login,
+.field-password {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 14px 20px;
+  margin: 8px 0;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.button-login {
+  height: 35px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.field-login,
+.field-password {
+  border-width: thin;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=login.css.map */

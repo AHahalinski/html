@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<head>
+    <meta http-equiv="Content-Type" content="json/application; charset=utf-8" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/content.css" />
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <title>Rest-api</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="bar-left">
+            <a href="#">
+                <i class="iconify" data-icon="zmdi:menu" data-inline="false"></i>
+            </a>
+            <div class="logo">Logo</div>
+        </div>
+
+        <div class="search-block">
+            <form class="search" action="/" method="GET">
+                <input class="field-search" type="search" placeholder="Search by item name" />
+                <select class="select">
+                    <option selected>All Categories</option>
+                    <option>First Categories</option>
+                    <option>Second Categories</option>
+                </select>
+            </form>
+        </div>
+
+        <div class="bar-right">
+            <div class="wish-list">
+                <a href="#">
+                    <i class="iconify" data-icon="mdi:cards-heart" data-inline="false"></i>
+                </a>
+            </div>
+            <div class="basket">
+                <a href="#">
+                    <i class="iconify" data-icon="mdi:cart" data-inline="false"></i>
+                </a>
+            </div>
+            <div class="login">
+                <a href="#">Login</a>
+                <b>|</b>
+                <a href="register.html">Sign Up</a>
+            </div>
+    </header>
+
+    <div class="content">
+        <wrapper class="wrapper-login">
+            <div class="circle-logo">
+                <b>Logo</b>
+            </div>
+            <div class="login-form">
+                <form>
+                    <input class="field-login" type="text" placeholder="Login" />
+                    <input class="field-password" type="password" placeholder="Password" />
+                    <button class="button-login" type="submit">Login</button>
+                </form>
+            </div>
+        </wrapper>
+    </div>
+
+    <footer>
+        <div class="footer-left">
+            <i>Aleh Hahalinski</i>
+        </div>
+        <div class="footer-right">
+            <a href="https://github.com/BEMNman/rest-api">
+                <span class="iconify" data-icon="mdi:github" data-inline="false"></span>
+            </a>
+            <a>
+                <span class="iconify" data-icon="mdi:phone-classic" data-inline="false"></span>
+            </a>
+        </div>
+    </footer>
+</body>
