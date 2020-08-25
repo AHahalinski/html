@@ -37,12 +37,9 @@
 }
 
 .button-login {
-    @extend %format-button;
-    height: 35px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
+    @extend %btn-green;
+    margin:0 auto;
+    width: 100%;
 }
 
 .field-login,

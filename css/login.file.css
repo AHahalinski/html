@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html,
@@ -28,7 +30,8 @@ button {
 }
 
 input,
-select {
+select,
+button {
   height: 35px;
   border-width: thin;
   padding: 0 10px;
@@ -44,7 +47,36 @@ a {
   text-decoration: none;
 }
 
-.button-login, .field-login,
+.title-form {
+  display: table-cell;
+  vertical-align: middle;
+  width: inherit;
+  height: 70px;
+  background-color: grey;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.title-form .title {
+  padding-left: 75px;
+}
+
+.form-group {
+  width: 100%;
+}
+
+.form-group label {
+  font-size: 12px;
+}
+
+.form-input,
+.form-group .select {
+  display: block;
+  width: 350px;
+  margin: 8px 0 10px;
+}
+
+.field-login,
 .field-password, .content, .circle-logo, .login-form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -57,13 +89,40 @@ a {
           justify-content: center;
 }
 
-.button-login, .field-login,
+.field-login,
 .field-password {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   margin: 25px 0;
   width: 100%;
+}
+
+.button-login {
+  width: 120px;
+  display: inline-block;
+  padding: 6px 35px;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 10pt;
+  font-family: inherit;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid;
+}
+
+.button-login {
+  border-color: #67c78f;
+  color: white;
+  background-color: #6fcf97;
+}
+
+.button-login:hover {
+  background: #3a925f;
+}
+
+.button-login:active {
+  background: #2b7a4c;
 }
 
 header {
@@ -139,7 +198,7 @@ header {
   font-size: 12px;
 }
 
-.button-login, .field-login,
+.field-login,
 .field-password, .content, .circle-logo, .login-form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -157,9 +216,6 @@ header {
   -webkit-box-flex: 1;
       -ms-flex: 1 0 auto;
           flex: 1 0 auto;
-  padding: 10px;
-  border-radius: 3px;
-  border-radius: 3px;
   border: none;
   background-color: #f2f2f2;
   overflow: hidden;
@@ -238,11 +294,8 @@ footer a {
 }
 
 .button-login {
-  height: 35px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  cursor: pointer;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .field-login,

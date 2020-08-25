@@ -1,0 +1,48 @@
+@import 'page';
+@import 'header';
+@import 'content';
+@import 'footer';
+
+.window-creator-certificate {
+    width: max($numbers: 1920px);
+    height: 100%;
+    display: block;
+    margin: auto;
+    background-color: white;
+}
+
+.window-creator-certificate {
+    @extend %position-center;
+}
+
+.form-creator {
+    position: relative;
+    width: 800px;
+    margin: 5px auto 10px;
+
+    .field-input {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+}
+
+.field-input-left,
+.field-input-right {
+    margin: 0 auto;
+}
+
+.button-group {
+    display: inline-block;
+    width: 350px;
+    position: absolute;
+    right: -50px;
+}
+
+.btn-back {
+    @extend %btn-grey;
+}
+
+.btn-save {
+    @extend %btn-green;
+}

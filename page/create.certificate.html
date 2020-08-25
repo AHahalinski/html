@@ -2,10 +2,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="json/application; charset=utf-8" />
-    <link rel="stylesheet" href="../css/header.css" />
-    <link rel="stylesheet" href="../css/content.css" />
     <link rel="stylesheet" href="../css/create.certificate.css" />
-    <link rel="stylesheet" href="../css/footer.css" />
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <title>Rest-api</title>
 </head>
@@ -51,13 +48,41 @@
 
     <div class="content">
         <div class="window-creator-certificate">
-            <div class="window-title">
-                <span>Add new certificate</span>
+            <div class="title-form">
+                <div class="title">Add new certificate</div>
             </div>
             <div class="creator-form">
                 <form class="form-creator">
                     <div class="field-input">
-                        INPUT
+                        <div class="field-input-left">
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input class="form-input" type="text" />
+                            </div>
+
+                            <div class="form-group">
+                                <label>Price</label>
+                                <input class="form-input" type="number" />
+                            </div>
+                            <div class="form-group">
+                                <label>Duration month</label>
+                                <select class="select">
+                                    <option selected>One</option>
+                                    <option>Tree</option>
+                                    <option>Six</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Name of tag</label>
+                                <input class="form-input" type="text" />
+                            </div>
+                        </div>
+                        <div class="field-input-right">
+                            <div class="form-group">
+                                <label>Description</label>
+                                <textarea class="form-input" type="text"></textarea>
+                            </div>
+                        </div>
                     </div>
                     <div class="button-group">
                         <button class="btn-back" type="menu">Back</button>

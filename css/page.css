@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html,
@@ -35,13 +37,50 @@ button {
   padding: 0 10px;
 }
 
+textarea {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+  height: 251px;
+  resize: none;
+}
+
 input:focus,
-select:focus {
+select:focus,
+textarea:focus {
   outline: none;
   background-color: #b8f3d1;
 }
 
 a {
   text-decoration: none;
+}
+
+.title-form {
+  display: table-cell;
+  vertical-align: middle;
+  width: inherit;
+  height: 70px;
+  background-color: grey;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.title-form .title {
+  padding-left: 75px;
+}
+
+.form-group {
+  width: 100%;
+}
+
+.form-group label {
+  font-size: 12px;
+}
+
+.form-input,
+.form-group .select {
+  display: block;
+  width: 350px;
+  margin: 8px 0 10px;
 }
 /*# sourceMappingURL=page.css.map */
