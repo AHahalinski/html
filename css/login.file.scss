@@ -1,3 +1,8 @@
+@import 'page';
+@import 'header';
+@import 'content';
+@import 'footer';
+
 .circle-logo {
     @extend %position-center;
     position: sticky;
@@ -26,17 +31,9 @@
     margin-top: -100px;
 
     form {
+        width: 70%;;
         margin-top: 90px;
     }
-}
-
-%format-button {
-    @extend %position-center;
-    display: inline-flex;
-    padding: 14px 20px;
-    margin: 8px 0;
-    width: 80%;
-    margin-left: 10%
 }
 
 .button-login {

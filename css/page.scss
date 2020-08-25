@@ -1,0 +1,76 @@
+$base-font: 'Segoe UI',
+Tahoma,
+Geneva,
+Verdana,
+sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    min-width: 800px;
+    max-width: 1500px;
+    height: 100%;
+    margin: auto;
+}
+
+body {
+    background-size: 100%;
+    font-family: $base-font;
+    font-size: 16px;
+    color: black;
+    line-height: 18px;
+}
+
+input,
+select,
+label,
+button {
+    font-family: $base-font;
+}
+
+input,
+select,
+button {
+    height: 35px;
+    border-width: thin;
+    padding: 0 10px;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    background-color: #b8f3d1;
+}
+
+a {
+    text-decoration: none;
+}
+
+%position-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+%format-button {
+    @extend %position-center;
+    display: inline-flex;
+    margin: 25px 0;
+    width: 100%;
+}
+
+%button-base {
+    display: inline-block;
+    padding: 6px 35px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 10pt;
+    font-family: inherit;
+    cursor: pointer;
+    outline: none;
+}

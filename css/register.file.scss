@@ -1,0 +1,82 @@
+@import 'page';
+@import 'header';
+@import 'content';
+@import 'footer';
+
+.title-register {
+    position: relative;
+    height: 10%;
+    background-color: grey;
+    color: white;
+    margin-bottom: 5px;
+
+    span {
+        position: absolute;
+        top: 30%;
+        left: 10px;
+    }
+}
+
+.register-form {
+    display: block;
+    margin: 0 auto;
+    width: 342px;
+}
+
+.form-group label {
+    font-size: 12px;
+}
+
+.form-input {
+    display: block;
+    width: 320px;
+    margin: 8px 0 10px;
+}
+
+.window-register {
+    width: 500px;
+    height: 490px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background-color: white;
+}
+
+.button-group {
+    display: inline-block;
+    width: 342px;
+    margin: auto;
+    position: absolute;
+    right: 2px;
+    bottom: 0;
+}
+
+.btn-cancel {
+    @extend %button-base;
+    border: 1px solid #e9e9e9;
+    color: grey;
+    background-color: white;
+}
+
+.btn-register {
+    @extend %button-base;
+    border: 1px solid #67c78f;
+    color: white;
+    background-color: #6fcf97;
+}
+
+.btn-cancel:hover {
+    background: #e6e6ff;
+}
+
+.btn-register:hover {
+    background: #3a925f;
+}
+
+.btn-register:active {
+    background: #2b7a4c;
+}

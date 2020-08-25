@@ -2,11 +2,10 @@
 
 <head>
     <meta http-equiv="Content-Type" content="json/application; charset=utf-8" />
-   <!-- <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/content.css" />
-    <link rel="stylesheet" href="../css/sigup.css" />
-    <link rel="stylesheet" href="../css/footer.css" /> -->
-    <link rel="stylesheet" href="../css/register.file.css" />
+    <link rel="stylesheet" href="../css/create.certificate.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <title>Rest-api</title>
 </head>
@@ -46,48 +45,28 @@
             <div class="login">
                 <a href="login.html">Login</a>
                 <b>|</b>
-                <a href="#register-open">Sign Up</a>
+                <a href="register.html">Sign Up</a>
             </div>
-        </div>
     </header>
 
     <div class="content">
-
-        <div class="window-register" id="register-open">
-
-            <div class="title-register">
-                <span>Register</span>
+        <div class="window-creator-certificate">
+            <div class="window-title">
+                <span>Add new certificate</span>
             </div>
-            <div class="register-form">
-                <form action="/" method="POST">
-                    <div class="form-group">
-                        <label>Login</label>
-                        <input class="form-input" type="text" />
-                    </div>
-                    <div class="form-group">
-                        <label>Password</label>
-                        <input class="form-input" type="password" />
-                    </div>
-                    <div class="form-group">
-                        <label>Repeat Password</label>
-                        <input class="form-input" type="password" />
-                    </div>
-                    <div class="form-group">
-                        <label>First Name</label>
-                        <input class="form-input" type="text" />
-                    </div>
-                    <div class="form-group">
-                        <label>Second Name</label>
-                        <input class="form-input" type="text" />
+            <div class="creator-form">
+                <form class="form-creator">
+                    <div class="field-input">
+                        INPUT
                     </div>
                     <div class="button-group">
-                        <button class="btn-cancel" type="reset" href="#">Cancel</button>
-                        <button class="btn-register" type="submit" href="#">Register</button>
+                        <button class="btn-back" type="menu">Back</button>
+                        <button class="btn-save" type="submit">Save</button>
                     </div>
                 </form>
             </div>
-
         </div>
+
     </div>
 
     <footer>
