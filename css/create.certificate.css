@@ -62,10 +62,10 @@ a {
   height: 70px;
   background-color: grey;
   color: white;
-  margin-bottom: 5px;
 }
 
 .title-form .title {
+  font-size: 20px;
   padding-left: 75px;
 }
 
@@ -75,13 +75,14 @@ a {
 
 .form-group label {
   font-size: 12px;
+  margin-left: 10px;
 }
 
 .form-input,
 .form-group .select {
   display: block;
-  width: 350px;
-  margin: 8px 0 10px;
+  width: 330px;
+  margin: 8px 10px 10px;
 }
 
 .content, .window-creator-certificate {
@@ -97,12 +98,12 @@ a {
 }
 
 .btn-back, .btn-save {
-  width: 120px;
+  width: 155px;
   display: inline-block;
   padding: 6px 35px;
   margin: 10px;
   text-decoration: none;
-  font-size: 10pt;
+  font-size: 12pt;
   font-family: inherit;
   cursor: pointer;
   outline: none;
@@ -188,7 +189,7 @@ header {
 
 .bar-right {
   width: 11%;
-  min-width: 110px;
+  min-width: 120px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -284,7 +285,7 @@ footer a {
 .form-creator {
   position: relative;
   width: 800px;
-  margin: 5px auto 10px;
+  margin: 30px auto 10px;
 }
 
 .form-creator .field-input {
@@ -304,9 +305,12 @@ footer a {
 }
 
 .button-group {
-  display: inline-block;
-  width: 350px;
-  position: absolute;
-  right: -50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 0 25px;
 }
 /*# sourceMappingURL=create.certificate.css.map */

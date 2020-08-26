@@ -48,7 +48,7 @@ header {
 
 .bar-right {
   width: 11%;
-  min-width: 110px;
+  min-width: 120px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

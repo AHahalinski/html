@@ -3,7 +3,8 @@
 @import 'content';
 @import 'footer';
 
-.window-creator-certificate {
+
+.window-creator-tag {
     @extend %position-center;
     width: max($numbers: 1920px);
     height: 100%;
@@ -32,7 +33,7 @@
 .button-group {
     display: flex;
     justify-content: flex-end;
-    margin: 0 25px;
+    margin: 0 225px;
 }
 
 .btn-back {

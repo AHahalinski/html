@@ -37,8 +37,16 @@ button {
   padding: 0 10px;
 }
 
+textarea {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+  height: 251px;
+  resize: none;
+}
+
 input:focus,
-select:focus {
+select:focus,
+textarea:focus {
   outline: none;
   background-color: #b8f3d1;
 }
@@ -58,6 +66,7 @@ a {
 }
 
 .title-form .title {
+  font-size: 20px;
   padding-left: 75px;
 }
 
@@ -67,13 +76,14 @@ a {
 
 .form-group label {
   font-size: 12px;
+  margin-left: 10px;
 }
 
 .form-input,
 .form-group .select {
   display: block;
-  width: 350px;
-  margin: 8px 0 10px;
+  width: 330px;
+  margin: 8px 10px 10px;
 }
 
 .content {
@@ -89,12 +99,12 @@ a {
 }
 
 .btn-cancel, .btn-register {
-  width: 120px;
+  width: 155px;
   display: inline-block;
   padding: 6px 35px;
   margin: 10px;
   text-decoration: none;
-  font-size: 10pt;
+  font-size: 12pt;
   font-family: inherit;
   cursor: pointer;
   outline: none;
@@ -281,11 +291,11 @@ footer a {
 }
 
 .button-group {
-  display: inline-block;
-  width: 350px;
-  margin: auto;
-  position: absolute;
-  right: 0;
-  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
-/*# sourceMappingURL=register.file.css.map */
+/*# sourceMappingURL=register.css.map */

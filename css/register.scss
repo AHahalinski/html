@@ -21,12 +21,8 @@ $width-register-form:350px;
 }
 
 .button-group {
-    display: inline-block;
-    width: $width-register-form;
-    margin: auto;
-    position: absolute;
-    right: 0;
-    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .btn-cancel {
