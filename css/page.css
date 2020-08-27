@@ -8,7 +8,7 @@
 html,
 body {
   width: 100%;
-  min-width: 800px;
+  min-width: 1120px;
   max-width: 1500px;
   height: 100%;
   margin: auto;
@@ -56,9 +56,15 @@ a {
 }
 
 .title-form {
-  display: table-cell;
-  vertical-align: middle;
-  width: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 70px;
   background-color: grey;
   color: white;

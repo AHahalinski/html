@@ -1,5 +1,5 @@
 header {
-  height: 6%;
+  height: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9,6 +9,10 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: white;
 }
 
 .bar-left {
@@ -47,7 +51,7 @@ header {
 }
 
 .bar-right {
-  width: 11%;
+  width: 15%;
   min-width: 120px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -60,6 +64,7 @@ header {
           align-items: center;
   vertical-align: middle;
   margin-right: 2%;
+  font-size: 20px;
 }
 
 .bar-right .basket {
@@ -68,6 +73,6 @@ header {
 
 .bar-right .login {
   display: inline;
-  font-size: 12px;
+  font-size: 16px;
 }
 /*# sourceMappingURL=header.css.map */

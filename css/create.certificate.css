@@ -8,7 +8,7 @@
 html,
 body {
   width: 100%;
-  min-width: 800px;
+  min-width: 1120px;
   max-width: 1500px;
   height: 100%;
   margin: auto;
@@ -56,9 +56,15 @@ a {
 }
 
 .title-form {
-  display: table-cell;
-  vertical-align: middle;
-  width: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 70px;
   background-color: grey;
   color: white;
@@ -140,7 +146,7 @@ a {
 }
 
 header {
-  height: 6%;
+  height: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -150,6 +156,10 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: white;
 }
 
 .bar-left {
@@ -188,7 +198,7 @@ header {
 }
 
 .bar-right {
-  width: 11%;
+  width: 15%;
   min-width: 120px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -201,6 +211,7 @@ header {
           align-items: center;
   vertical-align: middle;
   margin-right: 2%;
+  font-size: 20px;
 }
 
 .bar-right .basket {
@@ -209,7 +220,7 @@ header {
 
 .bar-right .login {
   display: inline;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .content, .window-creator-certificate {
@@ -225,6 +236,8 @@ header {
 }
 
 .content {
+  display: block;
+  min-height: calc(100vh - 120px);
   height: 85%;
   -webkit-box-flex: 1;
       -ms-flex: 1 0 auto;
@@ -235,7 +248,7 @@ header {
 }
 
 footer {
-  height: 6%;
+  height: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -245,6 +258,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background: white;
 }
 
 footer a {
@@ -275,9 +289,9 @@ footer a {
 }
 
 .window-creator-certificate {
-  width: 1920px;
+  width: 100%;
   height: 100%;
-  display: block;
+  display: inline-block;
   margin: auto;
   background-color: white;
 }

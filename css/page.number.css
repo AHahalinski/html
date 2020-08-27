@@ -1,0 +1,13 @@
+.page-number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+  margin: 0 auto;
+  -ms-flex-item-align: self-start;
+      align-self: self-start;
+}
+/*# sourceMappingURL=page.number.css.map */

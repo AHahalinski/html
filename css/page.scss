@@ -13,7 +13,7 @@ sans-serif;
 html,
 body {
     width: 100%;
-    min-width: 800px;
+    min-width: 1120px;
     max-width: 1500px;
     height: 100%;
     margin: auto;
@@ -46,7 +46,7 @@ button {
 textarea {
     font-family: $base-font;
     padding: 10px;
-    height: 251px; 
+    height: 251px;
     resize: none;
 }
 
@@ -62,9 +62,14 @@ a {
 }
 
 .title-form {
-    display: table-cell;
-    vertical-align: middle;
-    width: inherit;
+    //
+   // display: table-cell;
+    //
+    display: flex;
+    //vertical-align: middle;
+    //width: inherit;
+    justify-content: flex-start;
+    align-items: center;
     height: 70px;
     background-color: grey;
     color: white;

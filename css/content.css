@@ -11,6 +11,8 @@
 }
 
 .content {
+  display: block;
+  min-height: calc(100vh - 120px);
   height: 85%;
   -webkit-box-flex: 1;
       -ms-flex: 1 0 auto;

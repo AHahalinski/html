@@ -5,6 +5,14 @@
 
 $width-register-form:350px;
 
+.wrapper-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
 .register-form {
     display: block;
     margin: 0 auto;
@@ -15,7 +23,6 @@ $width-register-form:350px;
     width: 500px;
     height: 490px;
     display: block;
-    position: absolute;
     margin: auto;
     background-color: white;
 }

@@ -6,7 +6,7 @@
 
 .content {
     @extend %position-center;
-    display: inline-table;
+    display: block;
     min-height: calc(100vh - 120px);
     height: 85%;
     flex: 1 0 auto;
