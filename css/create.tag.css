@@ -53,6 +53,12 @@ textarea:focus {
 
 a {
   text-decoration: none;
+  color: black;
+  pointer-events: painted;
+}
+
+a:hover {
+  color: #2b7a4c;
 }
 
 .title-form {
@@ -261,17 +267,12 @@ footer {
   background: white;
 }
 
-footer a {
-  text-decoration: none;
-}
-
 .footer-left {
   margin-left: 2%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   line-height: 1em;
-  font-size: 12px;
 }
 
 .footer-right {
