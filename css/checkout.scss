@@ -1,0 +1,102 @@
+@import 'page';
+@import 'header';
+@import 'content';
+@import 'footer';
+
+.window-checkout {
+    @extend %position-center;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    margin: auto;
+    background-color: white;
+}
+
+.checkout-certificates {
+    display: block;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px auto;
+    width: 50%;
+    height: fit-content;
+}
+
+.row-certificate {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 20px;
+
+    .img-certificate {
+        width: 100px;
+        height: inherit;
+        background: #c4c4c4;
+        ;
+    }
+
+    .certificate-info {
+        width: 45%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 10px;
+
+        div {
+            height: 50%;
+            padding-bottom: 5px;
+        }
+
+        .box-description {
+            .description {
+                padding-bottom: 0;
+                font-weight: 300;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+            }
+        }
+
+    }
+
+    .name {
+        font-size: 18px;
+    }
+}
+
+.amount,
+.price,
+.title-price,
+.total-price {
+    width: 100px;
+    text-align: left;
+    padding: 20px;
+}
+
+.row-result {
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid grey;
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-back {
+    @extend %btn-grey;
+}
+
+.btn-save {
+    @extend %btn-green;
+    margin-right: 0;
+}
+
+.row-certificate:hover {
+    box-shadow: 5px 0 10px rgb(88, 90, 88);
+}
