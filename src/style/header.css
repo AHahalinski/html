@@ -1,0 +1,70 @@
+header {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: white;
+}
+
+.bar-left {
+  margin-left: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1em;
+  font-size: 24px;
+}
+
+.logo {
+  font-size: 20px;
+  margin-left: 3px;
+}
+
+.search-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+}
+
+.search-block .select {
+  width: 250px;
+}
+
+.field-search {
+  width: 100%;
+  border-right-style: none;
+}
+
+.bar-right {
+  width: 15%;
+  min-width: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  vertical-align: middle;
+  margin-right: 2%;
+  font-size: 20px;
+}
+
+.bar-right .basket {
+  margin-right: 2%;
+}
+
+.bar-right .login {
+  display: inline;
+  font-size: 16px;
+}
+/*# sourceMappingURL=header.css.map */

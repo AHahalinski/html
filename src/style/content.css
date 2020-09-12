@@ -1,0 +1,23 @@
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content {
+  display: block;
+  min-height: calc(100vh - 120px);
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  border: none;
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+/*# sourceMappingURL=content.css.map */
